@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Pikachu",
+    "version": "0.1.0",
+    "description": "Lateral blog post demo",
+    
+    "content_scripts":[
+        {
+            "css": ["styles.css"],
+            "js": ["content.js"],
+            "matches":[
+                "<all_urls>"
+            ]
+    }
+    ]
+}
